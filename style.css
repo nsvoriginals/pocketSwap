@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'giest';
+    src: url('./Geist-Regular.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #BBB8B2;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #BBB8B2;
+}
+#section1{
+    height: 100%;
+    width: 100%;
+    font-family: giest;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+#dot{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 50px;
+
+}
+#hero h1{
+    font-size: 12vh;
+    text-align: center;
+    margin: 30px 0px;
+}
+#hero p{
+   text-align: center;
+   width: 80%;
+   margin: 30px 0px;
+}
+#join{
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+}
+#section2{
+    height: 100%;
+    width: 100%;
+    font-family: giest;
+    text-align: center;
+}
+#featbox{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+   
+    margin: 45px 0px;
+    gap: 50px;
+}
+.box div{
+    width: 50vw;
+    height: 45vh;
+    background-color: rgb(131, 14, 14);
+}
+.box h1{
+    font-size: 45px;
+}
+.box h1 p{
+    font-size: 15px;
+    width: 30vw;
+    margin-top: 30px;
+}
+
+#im1{
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2284126663/display_1500/stock-photo-data-science-and-big-data-technology-scientist-computing-analysing-and-visualizing-complex-data-2284126663.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+#im2{
+    background-image: url('https://media.istockphoto.com/id/1030875166/photo/sending-money.jpg?s=612x612&w=0&k=20&c=mO8gHQbiLymy0mxdhFbRjHKAUQqPrEBg4NH9bfsbX-g=');
+    background-size: cover;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+#footer{
+    height: 60%;
+    width: 100%;
+    font-family: giest;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50vw;
+}
+#part1 h1{
+    font-size: 55px;
+    margin: 50px;
+
+    
+}
+#bottom{
+    margin-top: 50px;
+}
+
+#head{
+     font-size: 30px;
+}
